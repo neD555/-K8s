@@ -97,6 +97,14 @@ API, но не удаляет автоматически директорию и
  Каждый шаг выполнения задания, начиная с шага 2.
 
  ### Ответ.
+<img width="527" height="116" alt="дз3(1)" src="https://github.com/user-attachments/assets/f1a2b60c-38ad-44cc-ac93-72a3b01e2de4" />
+<img width="522" height="559" alt="дз3(2)" src="https://github.com/user-attachments/assets/3ceafbb4-cd1d-46f6-8e1f-af85a5678b0d" />
+<img width="525" height="296" alt="дз3(3)" src="https://github.com/user-attachments/assets/c2609a64-4f61-46d9-ad6b-3b926a49cb8c" />
+<img width="524" height="283" alt="дз3(4)" src="https://github.com/user-attachments/assets/5737dde5-fbac-449e-92c0-2cdede938f4a" />
+<img width="525" height="503" alt="дз3(5)" src="https://github.com/user-attachments/assets/cf5c2c8a-af69-435e-9948-83d1cc22e1f1" />
+
+
+
 
  
 

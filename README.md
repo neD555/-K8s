@@ -54,4 +54,33 @@ pv-pvc.yaml
 
 ### Ответ.
 
+<img width="522" height="126" alt="дз2(1)" src="https://github.com/user-attachments/assets/452770c5-b482-483c-9fa9-35d44bf75350" />
+<img width="524" height="513" alt="дз2(2)" src="https://github.com/user-attachments/assets/737c33f8-c617-414c-8d45-6eb5992ec068" />
+<img width="525" height="340" alt="дз2(3)" src="https://github.com/user-attachments/assets/0016ec57-ec14-4ae2-b709-9346e22a26e0" />
+<img width="524" height="237" alt="дз2(4)" src="https://github.com/user-attachments/assets/10598aa7-1bf5-42d1-8b4d-5d5ccffe2295" />
+<img width="523" height="699" alt="дз2(5)" src="https://github.com/user-attachments/assets/5d350a80-3927-41ad-b49a-16ed924d0512" />
+<img width="528" height="422" alt="дз2(6)" src="https://github.com/user-attachments/assets/fdc56e18-1d93-46f8-9179-1bf781ef24aa" />
+<img width="519" height="739" alt="дз2(7)" src="https://github.com/user-attachments/assets/bf893bef-b260-4cfb-af6f-76a23f776f7b" />
+<img width="524" height="292" alt="дз2(8)" src="https://github.com/user-attachments/assets/b4e396f5-7f08-4fe3-8cbd-43f804352c8b" />
+
+1.Почему после удаления Deployment и PVC PV стал Released.
+
+После удаления PVC ресурс PV не удалился, а перешёл в состояние Released, потому что для него была указана политика persistentVolumeReclaimPolicy: Retain. Политика Retain означает, что
+Kubernetes сохраняет том и данные на нём даже после удаления PersistentVolumeClaim.
+
+2.Почему после удаления PV файл остался на локальном диске.
+
+После удаления PV файл data.txt остался в директории /data/k8s/pv-task2, потому что использовался том типа hostPath. В случае hostPath Kubernetes удаляет только объект PV из своего
+API, но не удаляет автоматически директорию и файлы на локальной файловой системе ноды.
+
+
+
+
+
+
+
+
+
+
+
 
